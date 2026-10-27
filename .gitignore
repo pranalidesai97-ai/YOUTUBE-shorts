@@ -1,0 +1,6 @@
+models/
+build/
+render/node_modules/
+render/test/
+__pycache__/
+*.pyc

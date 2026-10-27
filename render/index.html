@@ -1,0 +1,24 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Microwave explainer renderer</title>
+<style>
+  @font-face { font-family: 'InterR'; src: url('/fonts/Inter-Medium.otf'); font-weight: 500; }
+  @font-face { font-family: 'InterR'; src: url('/fonts/Inter-SemiBold.otf'); font-weight: 600; }
+  @font-face { font-family: 'InterR'; src: url('/fonts/Inter-Bold.otf'); font-weight: 700; }
+  @font-face { font-family: 'InterD'; src: url('/fonts/InterDisplay-SemiBold.otf'); font-weight: 600; }
+  @font-face { font-family: 'InterD'; src: url('/fonts/InterDisplay-Bold.otf'); font-weight: 700; }
+  @font-face { font-family: 'InterD'; src: url('/fonts/InterDisplay-ExtraBold.otf'); font-weight: 800; }
+  @font-face { font-family: 'InterD'; src: url('/fonts/InterDisplay-Light.otf'); font-weight: 300; }
+  html, body { margin: 0; background: #000; overflow: hidden; }
+  canvas { position: absolute; left: 0; top: 0; display: block; }
+</style>
+<script type="importmap">
+{ "imports": { "three": "/render/node_modules/three/build/three.module.js", "three/addons/": "/render/node_modules/three/examples/jsm/" } }
+</script>
+</head>
+<body>
+<script type="module" src="/render/src/main.js"></script>
+</body>
+</html>
