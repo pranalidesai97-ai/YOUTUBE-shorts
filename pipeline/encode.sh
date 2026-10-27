@@ -12,7 +12,7 @@ ffmpeg -y -hide_banner -loglevel error \
   -framerate 30 -start_number 0 -i build/frames/f_%04d.jpg \
   -i build/mix.wav \
   -map 0:v -map 1:a \
-  -c:v libx264 -preset slow -crf 16 -profile:v high -level 4.2 -pix_fmt yuv420p \
+  -c:v libx264 -preset slow -crf 20 -profile:v high -level 4.2 -pix_fmt yuv420p \
   -x264-params "keyint=60:min-keyint=30" -r 30 -fps_mode cfr \
   -color_primaries bt709 -color_trc bt709 -colorspace bt709 \
   -c:a aac -b:a 256k -ar 48000 -ac 2 \
