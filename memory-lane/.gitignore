@@ -1,0 +1,4 @@
+node_modules/
+out/*
+!out/memory-lane.mp4
+!out/memory-lane-touch.mp4

@@ -1,0 +1,22 @@
+{
+  "name": "memory-lane",
+  "version": "1.0.0",
+  "private": true,
+  "description": "MEMORY LANE \u2014 animated year selector (1080x1920, 30fps) for Instagram Reels, built with Remotion",
+  "scripts": {
+    "studio": "remotion studio",
+    "render": "remotion render MemoryLane out/memory-lane.mp4",
+    "still": "remotion still MemoryLane out/still.png --frame=170",
+    "render:touch": "remotion render MemoryLaneTouch out/memory-lane-touch.mp4"
+  },
+  "dependencies": {
+    "@remotion/cli": "4.0.546",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "remotion": "4.0.546"
+  },
+  "devDependencies": {
+    "@types/react": "18.3.12",
+    "typescript": "5.6.3"
+  }
+}
